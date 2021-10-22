@@ -1,0 +1,109 @@
+
+.header {
+    background-color: burlywood;
+    text-align: center;
+    margin-top: 0px;
+    background-image: url('ZZZ.jpg');
+  
+  }
+  h1 {
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.973);
+  }
+
+  h2 {
+    font-size: 40px;
+    color: navajowhite;
+  }
+
+  h3{
+    font-size: 30px;
+    background-image: -webkit-image-set();
+    color: mediumvioletred;
+  }
+  .sub-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  a {
+    text-decoration: oldlace;
+    font-size: 15px;
+    background-color: rgba(228, 225, 245, 0.835);
+    padding: 10px;
+    color: midnightblue;
+    font-weight: bold;
+  }
+  html {
+    margin: 0;
+    padding: 0px;
+  }
+  
+  .products{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 70px;
+  }
+  
+  .item{
+   margin: 30px;
+  }
+  
+  .footer{
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba(9, 19, 17, 0.993);
+  }
+  
+  .category:hover a{
+    background-color: cadetblue;
+    color: blanchedalmond;
+  }
+  
+  .item:hover p{
+    opacity: 1;
+  }
+  
+  .item p{
+    position: absolute;
+    top: -50;
+    left: 20;
+  }
+  
+  .item p{
+    position: relative;
+  }
+  
+  .item:hover img{
+    opacity: 0.5;
+  }
+  
+  img{
+    border-radius: 10px;
+    
+    margin-right: 10px;
+  }
+
+.item{
+  font-weight: bold;
+}
+
+
+.item{
+  width: 500px;
+  height: 400px;
+  object-position: left;
+  object-fit: cover;
+
+}
+
+body{
+  background-image: url("AAA.jpg");
+}
+body{
+  color: beige;
+}
